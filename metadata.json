@@ -1,0 +1,6 @@
+{
+  "name": "FreshCart Grocery & Organics",
+  "description": "A production-grade e-commerce platform for fresh groceries, organics, beverages, and daily essentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

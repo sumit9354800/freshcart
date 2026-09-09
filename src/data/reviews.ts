@@ -1,0 +1,58 @@
+import type { Review } from '../types';
+
+export const INITIAL_REVIEWS: Review[] = [
+  {
+    id: 'rev-001',
+    productId: 'prod-001',
+    authorName: 'David K.',
+    rating: 5,
+    comment: 'These avocados arrived perfectly green and ripened within two days on the counter. Silky smooth texture and rich flavor without any dark bruising!',
+    createdAt: '2026-08-14T10:30:00Z',
+    verifiedPurchase: true,
+  },
+  {
+    id: 'rev-002',
+    productId: 'prod-001',
+    authorName: 'Elena Rostova',
+    rating: 5,
+    comment: 'Best organic avocados I have purchased online. Big seed-to-flesh ratio and great value compared to typical boutique grocery stores.',
+    createdAt: '2026-08-28T14:15:00Z',
+    verifiedPurchase: true,
+  },
+  {
+    id: 'rev-003',
+    productId: 'prod-009',
+    authorName: 'Marcus Bennett',
+    rating: 5,
+    comment: 'The cream top on this whole milk reminds me of drinking milk straight from our grandfather’s dairy farm. Fantastic for morning espresso.',
+    createdAt: '2026-09-01T09:20:00Z',
+    verifiedPurchase: true,
+  },
+  {
+    id: 'rev-004',
+    productId: 'prod-015',
+    authorName: 'Claire Miller',
+    rating: 5,
+    comment: 'The crust on this sourdough is heavenly. Blistered, airy interior, and just the right tartness from the starter. We finished half the boule in one night.',
+    createdAt: '2026-08-20T16:45:00Z',
+    verifiedPurchase: true,
+  },
+  {
+    id: 'rev-005',
+    productId: 'prod-020',
+    authorName: 'Antonio Rossi',
+    rating: 5,
+    comment: 'As someone who grew up in the Mediterranean, this olive oil is the real deal. Grassy aroma with that delightful authentic peppery kick at the back of your throat.',
+    createdAt: '2026-07-19T11:00:00Z',
+    verifiedPurchase: true,
+  },
+  {
+    id: 'rev-006',
+    productId: 'prod-031',
+    authorName: 'Jessica Vance',
+    rating: 5,
+    comment: 'Seared this salmon in a cast iron skillet with sea salt and dill. Unbelievable natural color and tender flakes. Very fresh, no fishy odor.',
+    createdAt: '2026-08-30T18:10:00Z',
+    verifiedPurchase: true,
+  },
+];

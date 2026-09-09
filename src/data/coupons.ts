@@ -1,0 +1,52 @@
+import type { Coupon } from '../types';
+
+export const COUPONS: Coupon[] = [
+  {
+    code: 'SAVE10',
+    description: '10% off entire order, no minimum required',
+    discountType: 'percentage',
+    discountValue: 10,
+    minimumOrderValue: 0,
+    maximumDiscount: 25,
+    expiresAt: '2027-12-31',
+    isActive: true,
+  },
+  {
+    code: 'SAVE20',
+    description: '20% off orders over $50',
+    discountType: 'percentage',
+    discountValue: 20,
+    minimumOrderValue: 50,
+    maximumDiscount: 50,
+    expiresAt: '2027-12-31',
+    isActive: true,
+  },
+  {
+    code: 'WELCOME10',
+    description: '$10 off your first purchase over $30',
+    discountType: 'fixed',
+    discountValue: 10,
+    minimumOrderValue: 30,
+    expiresAt: '2027-12-31',
+    isActive: true,
+  },
+  {
+    code: 'FREESHIP',
+    description: 'Free standard shipping on orders over $25',
+    discountType: 'free_shipping',
+    discountValue: 0,
+    minimumOrderValue: 25,
+    expiresAt: '2027-12-31',
+    isActive: true,
+  },
+  {
+    code: 'ORGANIC15',
+    description: '15% off whole food orders over $40',
+    discountType: 'percentage',
+    discountValue: 15,
+    minimumOrderValue: 40,
+    maximumDiscount: 30,
+    expiresAt: '2027-12-31',
+    isActive: true,
+  },
+];
