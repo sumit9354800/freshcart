@@ -213,7 +213,7 @@ export function Footer() {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-stone-800 text-[11px] text-stone-500 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p>© {new Date().getFullYear()} FreshCart Organics. Built with high craftsmanship and local state persistence.</p>
+        <p>© {new Date().getFullYear()} Alfa Solution. Built with high craftsmanship and local state persistence.</p>
         <div className="flex items-center gap-4 text-stone-400">
           <span>100% Local Sandbox Simulation</span>
           <span>·</span>
